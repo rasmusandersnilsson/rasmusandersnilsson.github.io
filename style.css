@@ -1,17 +1,17 @@
 :root {
-    font-size: 100%;
     --sidebar-width: 400px;
-    --sidebar-width-mobile: 100%;
-    --page-margin: 48px;
+    --page-margin: 3rem;
 }
-    
+
+html {
+    font-size: 100%;
+}
+
 body {
     width: 100%;
     height: 100%;
     margin: 0;
-
     font-family: "Roboto", sans-serif;
-
     color: #000;
     background-color: #eee;
 }
@@ -164,10 +164,16 @@ button:hover {
     color: white;
 }
 
+@media only screen and (max-width: 900px) {
+    main.open .page-wrap {
+        margin-right: 0;
+    }
+    }
 
-@media only screen and (max-width: 720px) {
+
+@media only screen and (max-width: 475px) {
     :root {
         --sidebar-width: 100%;
-        --page-margin: 24px;
+        --page-margin: 1.5rem;
     }
 }
