@@ -9,7 +9,7 @@
 <title>Sidebar</title>
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="stylesheet" type="text/css" href="../style.css">
-
+<script src="../split.js"></script>
 </head>
     
 
@@ -91,3 +91,9 @@ document.addEventListener('readystatechange', function() {
 });
 </script>
 
+<script>
+    Split(['#menu', '.page-wrap'], {
+    sizes: [25, 75],
+    minSize: 200,
+})
+</script>
