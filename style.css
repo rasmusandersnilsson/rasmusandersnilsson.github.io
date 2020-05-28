@@ -164,14 +164,8 @@ button:hover {
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
-    main.open .page-wrap {
-        margin-right: 0;
-    }
-    }
 
-
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 720px) {
     :root {
         --sidebar-width: 100%;
         --page-margin: 1.5rem;
