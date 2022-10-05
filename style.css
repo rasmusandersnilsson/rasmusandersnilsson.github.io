@@ -22,12 +22,18 @@ body {
     background-color: #eee;
 }
 
-p {
-    line-height: 1.7;
+p,h2,button {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
 }
+
 h2 {
-    font-size: 1rem;
-    line-height: 1;}
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+
 
 /* CARD */
 .card {
@@ -160,9 +166,10 @@ button {
     background-color: white;
     border: 1px solid black;
     outline: none;
-    padding: 8px;
+    padding: 8px 12px;
     border-radius: 2px;
     transition: all 150ms ease;
+    font-family: "ABCSynt-Regular-Trial", sans-serif;
 }
 
 button:hover {
